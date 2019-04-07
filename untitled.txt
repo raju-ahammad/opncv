@@ -1,0 +1,23 @@
+1.start with python/R; preferably python.
+
+2. Lib: numpy, pandas, matplotlib, seaborn, scipy, re (basic level). Be expert in data manipulation, preprocessing, exploratory data analysis, try to handle null values, array manipulation, reshaping.
+
+3. Then go to kaggle and start reading machine learning concepts why, how procedures from the learning modules. In parallel, start growing statistical concepts (inferential stat, hypothesis testing, imputations, chi-square test)
+
+4. Read '100 page Machine learning Book'. I prefer this cause ML is vast and no single book is enough. So just get the what to do things from this book. This will tell you the steps to follow. Just grab the steps one by one and go thoroughly from online (analytics vidya, towards data science etc.). You can also follow online courses/books too.
+
+5. Start a kaggle Knowledge project competition and go through popular public kernels in detail.
+
+6. Start knowing about how to use Scikit learn and its attributes. Explore as much as you can.
+
+7. Start building understanding on Basic algorithms like naive bayes, Decision tree, linear/logistic regression, K-NN, SVM, ensemble, XGboost
+
+8. Read as many articles as possible on Data science
+
+9. Now think of knowing about what goes in depth of the algos. Think of the mathematical models. Now start taking algebra, calculus seriously.
+
+10. For math - 'Mathematics for machine learning by imperial college' coursera MOOC.
+
+11. Start practicing kaggle competitions (2 atleast)
+
+12. Think of Deeplearning and beyond...

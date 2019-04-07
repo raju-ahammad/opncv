@@ -1,0 +1,33 @@
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+
+def detect_face(img):
+    face_img = img.copy()
+    
+    face_rectan = face_cascade.detectMultiScale(face_img)
+    
+    for (x,y,w,h) in face_rectan:
+        cv2.rectangle(face_img,(x,y),(x+w, y+h),(255,0,0),10)
+    return face_img    
+    
+    
+    
+cap = cv2.VideoCapture(0)
+
+while True:
+    ret, frame = cap.read()
+    
+    frame = detect_face(frame)
+    
+    cv2.imshow("Video Face detect", frame)
+    
+    k = cv2.waitKey(1)
+    if k == 27:
+        break
+        
+ 
+cap.release()
+cv2.destroyAllWindows()    
